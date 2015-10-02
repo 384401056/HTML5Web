@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;/*开始位置，在中间 */
+    /*background-position: right top;开始位置在右上*/
+    /*background-position: 200px 100px;开始位置为具体值*/
+    background-attachment: fixed;/*背景是否跟随滚动*/
+    background-size: 1000px 1000px;/*图片大小*/
+    /*background-origin: border-box;*/
+    /*background-clip: border-box;*/
+}
+
+#div01{
+    width: 200px;
+    height: 200px;
+    color: #000000;
+    background-color: #ffce3e;
+}
+
+#div02{
+     width: 200px;
+     height: 200px;
+     color: #000000;
+     background-color: #52baff;
+     background-size: 200px 200px;
+ }
+
+#div03{
+    width: 200px;
+    height: 200px;
+    color: #000000;
+    background-color: greenyellow;
+    background-size: 200px 200px;
+}

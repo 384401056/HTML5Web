@@ -1,0 +1,62 @@
+body{
+
+}
+
+h2{
+    color: steelblue;
+
+    direction: ltr;/*文本方向*/
+    text-indent: -2em;/*首行缩进字符个数,可以为负值*/
+    padding-left: 2em;/*距左两个字符*/
+
+    /*CSS3 文字阴影，4个值分别是：距左，距上，模糊度，阴影颜色*/
+    text-shadow: 5px 5px 3px #b4b4b4;
+}
+
+p{
+    color: darkslategray;
+    font-size: larger;
+
+    text-indent: 2em;/*首行缩进字符个数*/
+
+}
+
+#p1{
+    text-transform: capitalize;/*英文首字母大写*/
+}
+
+#p2{
+    text-transform: lowercase;/*全部小写*/
+}
+
+#p3{
+    text-transform: uppercase;/*全部大写*/
+}
+
+#p4{
+    width: 300px;
+    text-wrap: normal;/*自动根据width值为换行。CSS3*/
+}
+
+#p5{
+    font-size: 40px;
+    font-family: monospace;
+    font-style: normal;
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

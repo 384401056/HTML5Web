@@ -1,0 +1,22 @@
+th{
+    color: white;
+    background-color: #00ac00;
+}
+
+th,td{
+    border: 1px solid #00ac00;/*表内边框*/
+    text-align: center;/*单元格中的文字对齐方式*/
+    /*text-shadow:  5px 5px 1px #ff9dfb;*//*文字阴影*/
+}
+
+#tb{
+    width: 400px;
+    height: 200px;
+    border: 2px solid #00ac00; /*设置表格边框的大小、描线样式和颜色*/
+    border-collapse: collapse;/*合并(折叠)边框*/
+}
+
+#tb tr.alt{
+    color: black;
+    background-color: #ffce3e;
+}

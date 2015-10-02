@@ -1,0 +1,34 @@
+/*正常的链接*/
+a:link{
+    color: #54eeff;
+    text-decoration: none;/*去除链接的下划线*/
+}
+/*鼠标指上链接*/
+a:hover{
+    color: #ffce3e;
+}
+
+/*链接被点击时*/
+a:active{
+    color: #00e010;
+}
+
+/*被点击过的链接*/
+a:visited{
+    color: #1f5877;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
