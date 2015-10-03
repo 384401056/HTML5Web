@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+}
+
+body{
+    width: 70%;
+    height: auto;
+    margin: 0px auto;
+}
+
+
+.div_margin{
+    width: 70%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color: green;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /**/
+    line-height: 30px;
+    margin: 0px auto;/*居中，前一属性代表上下的距离，后一属性代表左右*/
+}
+
+.div_position{
+    width: 70%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color:darkblue;
+    position: absolute;/*绝对布局*/
+    right: 0px;
+    /*float: left;*/
+}

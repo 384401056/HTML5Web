@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>异常</title>
+</head>
+<body>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">异常捕获</h1>
+
+<script>
+
+    function func1(){
+        var i = 100;
+        x = 100;
+        document.write(i);
+    }
+
+    try{
+        func1();
+        document.write(i);//i为函数内的局部变量，无法在此处访问。
+    }catch (err){
+//        alert(err);
+        document.write("<br/>"+err);
+    }
+
+</script>
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">异常的抛出</h1>
+<input id="input01" type="text" alt="请输入">
+<input id="btn01" type="button" value="确定" onclick="func2()">
+<script>
+    function func2(){
+        try{
+            var str = document.getElementById("input01").value;
+            if(""==str){
+                throw "用户输入为空！" //自定义异常的抛出。
+            }
+        }catch (err){
+           alert(err);
+        }
+    }
+</script>
+
+<hr/>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

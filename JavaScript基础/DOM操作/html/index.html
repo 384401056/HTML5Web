@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>DOM操作</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">DOM操作HTML</h1>
+<p id="p1">这是一个p元素标签</p>
+<br/>
+<button type="button" onclick="onClick_01(this)" name="btn">按钮</button>
+
+<script>
+    function onClick_01(obj){
+//        document.getElementById("p1").innerHTML="这是一个被DOM改变内容后的P元素标签";
+
+        //getElementsByTagName()是直接根据标签名来获取一组元素，所以要用下标来取得单个元素.getElementsByName()与它用法相近
+        document.getElementsByTagName("p")[0].innerHTML="这是一个被DOM改变内容后的p元素标签";
+    }
+</script>
+
+<br/><br/>
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">DOM操作HTML元素的属性</h1>
+<img src="../images/01.jpg" width="300px" height="200px"/>
+<br/><br/>
+<button type="button" onclick="onClick_02(this)" name="btn">按钮</button>
+
+<script>
+    function onClick_02(obj){
+        var element = document.getElementsByTagName("img")[0];
+        element.src="../images/02.jpg";
+    }
+</script>
+
+<br/><br/>
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">DOM操作HTML元素的CSS</h1>
+
+<div class = "div" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></div>
+
+<script>
+    function mouseOver(obj){
+        obj.innerHTML="鼠标进入DIV";
+        obj.style.backgroundColor="#DEFF53";//改变背景颜色。
+        obj.style.color = "#000000";//改变字体颜色
+        obj.style.cursor = "pointer"//改变鼠标外形。
+    }
+
+    function mouseOut(obj){
+        obj.innerHTML="";
+        obj.style.backgroundColor="#5F9EA0";
+        obj.style.color = "#FFFFFF";
+    }
+</script>
+
+<hr/>
+</body>
+</html>

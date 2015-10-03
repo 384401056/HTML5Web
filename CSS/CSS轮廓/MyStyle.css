@@ -1,0 +1,10 @@
+#div01{
+
+    outline: inset;
+    outline-color: #ffce3e;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-offset: 0px;
+    background-color: darkorange;
+    color: white;
+}

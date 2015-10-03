@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>事件流</title>
+</head>
+<body>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">事件流</h1>
+
+<button id="btn01" type="button" onclick="onClick(this)">Html事件</button>
+<script>
+    function onClick(obj){
+        alert(obj.innerHTML+" 按钮被点击了。")
+    }
+
+</script>
+<br/>
+<button id="btn02" type="button">DOM0级事件</button>
+<script>
+    var btn02 = document.getElementById("btn02");
+    btn02.onclick = onClick02;
+    function onClick02(){
+        alert(btn02.innerHTML+" 按钮被点击了。");
+    }
+</script>
+<br/>
+<button id="btn03" type="button">DOM2级事件</button>
+<script>
+    var btn03 = document.getElementById("btn03");
+    btn03.addEventListener("click", onClick03);
+    function onClick03() {
+        alert(btn03.innerHTML+" 按钮被点击了。");
+    };
+
+</script>
+<br/>
+<button id="btn04" type="button">IE级事件</button>
+<script>
+    var btn04 = document.getElementById("btn04");
+
+    //如果支持IE级的事件就设置
+    if(btn04.attachEvent){
+         btn04.attachEvent("onclick",function(){
+            alert(btn04.innerHTML+" 按钮被点击了。");
+         });
+    //否则设置为DOM2级事件
+    }else if(btn04.addEventListener){
+        btn04.addEventListener("click", function() {
+            alert(btn04.innerHTML+" 按钮被点击了。");
+        });
+    }
+
+</script>
+
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">事件对象</h1>
+
+<button id="btn05" type="button">事件对象的获取</button>
+
+<script>
+    var btn05 = document.getElementById("btn05");
+    btn05.addEventListener("click",showEvent);//通过DOM2级事件来添加。
+
+    function showEvent(event){
+        var str = "事件类型："+event.type+"\n事件目标："+event.target;
+        alert(str);
+    }
+</script>
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">事件冒泡</h1>
+<div id="div"  style="background-color: darkseagreen;height: 80px">
+    <button id="btn06" type="button" style="margin-top: 30px;margin-left: 30px" >事件冒泡</button>
+    <button id="btn07" type="button" style="margin-top: 30px;margin-left: 30px" >事件不冒泡</button>
+    <a id="a1" href="www.baidu.com" style="margin-top: 30px;margin-left: 30px" >百度网络链接</a>
+</div>
+
+<script>
+
+    //div的事件绑定
+    var div = document.getElementById("div");
+    div.addEventListener("click",onClickDiv);
+    function onClickDiv(event){
+        var str = "事件类型："+event.type+"\n事件目标："+event.target;
+        alert(str);
+    }
+
+    //btn06的事件绑定
+    var btn06 = document.getElementById("btn06");
+    btn06.addEventListener("click",onClick06);
+    function onClick06(event){
+        var str = "按钮名称:"+btn06.innerHTML+"\n事件类型："+event.type+"\n事件目标："+event.target;
+        alert(str);
+    }
+
+
+    //btn07的事件绑定
+    var btn07 = document.getElementById("btn07");
+    btn07.addEventListener("click",onClick07);
+    function onClick07(event){
+        var str = "按钮名称:"+btn07.innerHTML+"\n事件类型："+event.type+"\n事件目标："+event.target;
+        alert(str);
+        event.stopPropagation();//阻止事件冒泡。(不再派发事件)
+    }
+
+
+    var a1 = document.getElementById("a1");
+    a1.addEventListener("click",linkTo);
+    function linkTo(event){
+        event.stopPropagation();
+        event.preventDefault();//通知浏览器不要执行与事件关联的默认动作。
+    }
+
+</script>
+
+<p></p>
+<hr/>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>事件</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+    <script>
+        function mouseOver(obj){
+            obj.innerHTML="鼠标进入DIV";
+            obj.style.backgroundColor="#DEFF53";//改变背景颜色。
+            obj.style.color = "#000000";//改变字体颜色
+            obj.style.cursor = "pointer"//改变鼠标外形。
+        }
+
+        function mouseOut(obj){
+            obj.innerHTML="";
+            obj.style.backgroundColor="#5F9EA0";
+            obj.style.color = "#FFFFFF";
+        }
+
+        function onClick(obj) {
+            obj.innerHTML="点击了DIV";
+        }
+
+        function onChange(obj){
+            alert("内容改变了！！")
+        }
+
+        function onFocus(obj){
+            obj.style.backgroundColor = "#97FF80";
+        }
+
+        function onBlur(obj){
+            obj.style.backgroundColor = "#FFFFFF";
+        }
+
+        /**
+         * 网页加载完成的事件，在body中定义。
+         */
+        function onLoad(){
+            alert("网页加载完成");
+        }
+
+        /**
+         * 网页关闭事件，在body中定义。
+         */
+        function onUnload(){
+
+        }
+
+    </script>
+
+</head>
+<body onload="onLoad()" onunload="">
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">鼠标事件</h1>
+<div class = "div" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="onClick(this)"></div>
+
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">文本框事件</h1>
+
+<div>
+    <input id="text01" type="text" onchange="onChange(this)">
+    <p>input的onchange事件，是在控件失去焦点时进行判断的</p>
+    <br/>
+    <input id="text02" type="text" onfocus="onFocus(this)" onblur="onBlur(this)">
+    <p>input的onfocus(获取焦点)事件,和onblur(失去焦点)事件</p>
+</div>
+
+
+<hr/>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

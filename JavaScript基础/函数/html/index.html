@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>函数</title>
+</head>
+<body>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">函数</h1>
+
+<script>
+    function func(a,b){
+        var sum = a+b;
+        return sum;
+    }
+    var a = 50;
+    var b = 40;
+    document.write(a+"+"+b+"="+func(a,b));
+
+</script>
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">通过事件调用函数</h1>
+
+<script>
+    function func2(){
+        var i = 150;
+        var j = 445;
+        alert(i+"+"+j+"="+(i+j));
+    }
+</script>
+<button onclick="func2()">点击我!</button>
+
+<hr/>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">局部变量和全局变量</h1>
+
+<script>
+    var n = 10;//全局变量
+    m = 10;//全局变量
+    function func3(){
+        var i = n+m; //局部变量
+        x = 200;//全局变量
+        document.write(i + "<br/>");
+        document.write(x + "<br/>");
+    }
+    func3()
+//    document.write(i + "<br/>"); //此处无法访问到变量i
+    document.write(x + "<br/>"); //可以访问函数内部定义的全局变量
+
+</script>
+
+</body>
+</html>

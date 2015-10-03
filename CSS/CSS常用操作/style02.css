@@ -1,0 +1,127 @@
+.p1{
+    width: 400px;
+    height: auto;
+    color: darkblue;
+    line-height: 100%;
+}
+
+.p2{
+    width: 400px;
+    height: auto;
+    color: darkred;
+    line-height: 200%;
+}
+
+.p3{
+    width: 400px;
+    height: auto;
+    color: darkcyan;
+    line-height: 50%;
+}
+
+.p4{
+    cursor: pointer;
+}
+.p5{
+    cursor: cell;
+}
+.p6{
+    cursor: zoom-in;
+}
+.p7{
+    cursor: move;
+}
+
+ul.ul1 li{
+    list-style: circle;
+    list-style-position: inside;
+}
+
+ul.ul2 li{
+    display: inline;
+}
+
+
+.nav1 li{
+    list-style: none;/*去掉文字前面的小点。*/
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav1 a:link,.nav1 a:visited{
+    width: 80px;
+    height: 50px;
+    margin: 10px 10px;
+    text-decoration: none;
+    display: block;/*转为block,此时不能转横向排列*/
+    color: white;
+    text-align: center;
+    line-height: 50px;/*垂直对齐*/
+
+    /*圆角轮廓*/
+    border-radius: 7px;
+    background-color: cadetblue;
+}
+
+.nav1 a:active,.nav1 a:hover{
+    background-color: burlywood;
+    color: black;
+    border-radius: 0px;
+}
+
+
+.nav2 li{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.nav2 a:link,.nav2 a:visited{
+    width: 80px;
+    height: 50px;
+    padding: 20px 20px;
+    text-decoration: none;
+
+    text-align: center;
+    line-height: 50px;/*垂直对齐*/
+
+    color: white;
+
+    /*圆角轮廓*/
+    border-radius: 7px;
+    background-color: cadetblue;
+}
+
+.nav2 a:active,.nav2 a:hover{
+    background-color: burlywood;
+    color: black;
+    border-radius: 0px;
+}
+
+.image{
+    border: 2px solid silver;
+    margin: 5px;
+    float: left;
+}
+
+img{
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.text{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+

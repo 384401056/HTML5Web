@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.p1{
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.p2{
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+}
+
+.p1.p2{
+    font-style: italic;
+}
+
+#div{
+    color: green;
+    font-size: 40px;
+}
+
+/*只要有title属性*/
+[title]{
+    color: blueviolet;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/*属性值等于div*/
+[title="div"]{
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/*只要title属性中包含div此单词*/
+[title~="div"]{
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+
+a[href="www.baidu.com"]{
+    color: darkorange ;
+    font-size: 30px;
+    font-style: italic;
+}
+
+a[href="www.163.com"]{
+    color: fuchsia ;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/*后代选择器*/
+p strong{
+    color: red;
+}

@@ -4,9 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CSS.iml" filepath="$PROJECT_DIR$/CSS.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSS列表/CSS列表.iml" filepath="$PROJECT_DIR$/CSS列表/CSS列表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS常用操作/CSS常用操作.iml" filepath="$PROJECT_DIR$/CSS常用操作/CSS常用操作.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSS文本/CSS文本.iml" filepath="$PROJECT_DIR$/CSS文本/CSS文本.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSS背景/CSS背景.iml" filepath="$PROJECT_DIR$/CSS背景/CSS背景.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSS表格/CSS表格.iml" filepath="$PROJECT_DIR$/CSS表格/CSS表格.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS轮廓/CSS轮廓.iml" filepath="$PROJECT_DIR$/CSS轮廓/CSS轮廓.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS选择器/CSS选择器.iml" filepath="$PROJECT_DIR$/CSS选择器/CSS选择器.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSS链接/CSS链接.iml" filepath="$PROJECT_DIR$/CSS链接/CSS链接.iml" />
     </modules>
   </component>
