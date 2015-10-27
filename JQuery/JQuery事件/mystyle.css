@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-size:15px;
+    font-family: monospace;
+    color:black;
+}

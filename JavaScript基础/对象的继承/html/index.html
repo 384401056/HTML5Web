@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>对象的继承</title>
+</head>
+<body>
+<script>
+
+    //-----创建Person-----
+    function Person(){
+
+    };
+
+    Person.prototype.say = function(){
+        document.write("这是Person的say方法。"+"<br/>")
+    };
+
+    //-----创建Student-----
+    function Student(){
+
+    };
+
+    //让Student继承Person类。-------
+    Student.prototype = new Person();
+
+    var superSayFunc = Student.prototype.say;//得到父类的方法。
+
+    //Student覆写的Person的say方法
+    Student.prototype.say = function(){
+        superSayFunc.call();//调用父类的方法
+        document.write("这是Student覆写的Person的say方法。"+"<br/>")
+    };
+
+    var s = new Student();
+    s.say();//调用继承的方法。
+
+</script>
+
+</body>
+</html>

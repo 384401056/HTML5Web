@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>对象</title>
+
+
+
+</head>
+<body>
+<h1 style="text-align: center;color: cornflowerblue;font-size: 30px">对象</h1>
+
+<!--创建对象的方式。-->
+<script>
+
+    //=============通过Object来创建对象=================
+    person1 = new Object();
+    person1.name = "张三";
+    person1.age = "30";
+    person1.eat = function(){
+        document.write("person1的eat方法"+"<br/>");
+    };
+
+
+    //================通过直接赋值创建对象================
+    person2 = {name:"李四",age:"30",eat:function(){
+        document.write("person2的eat方法"+"<br/>");
+    }};
+
+    document.write("Name:" + person1.name+",Age:"+person1.age+"<br/>");
+    person1.eat();
+    document.write("Name:" + person2.name+",Age:"+person2.age+"<br/>");
+    person2.eat();
+
+
+    //================使用function来创建对象============
+    function person(name,age){
+        this.name = name;
+        this.age = age;
+        this.eat =function(){
+            document.write("person的eat方法"+"<br/>");
+        };
+    }
+
+    son = new person("王五","40");
+    document.write("Name:" + son.name+",Age:"+son.age+"<br/>");
+    son.eat();
+
+    //================使用类构造函数来创建对象============
+    function Person(){
+
+    }
+
+    Person.prototype={
+        name:"赵六",
+        age:100,
+        eat:function(){
+            document.write("Person的eat方法"+"<br/>");
+        }
+    }
+
+    var p = new Person();
+    document.write("Name:" + p.name+",Age:"+p.age+"<br/>");
+    p.eat();
+
+
+</script>
+
+
+
+
+</body>
+</html>

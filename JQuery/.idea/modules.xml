@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JQuery.iml" filepath="$PROJECT_DIR$/JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery事件/JQuery事件.iml" filepath="$PROJECT_DIR$/JQuery事件/JQuery事件.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery初步/JQuery初步.iml" filepath="$PROJECT_DIR$/JQuery初步/JQuery初步.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery选择器/JQuery选择器.iml" filepath="$PROJECT_DIR$/JQuery选择器/JQuery选择器.iml" />
+    </modules>
+  </component>
+</project>

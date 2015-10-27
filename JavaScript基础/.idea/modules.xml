@@ -4,9 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DOM操作/DOM操作.iml" filepath="$PROJECT_DIR$/DOM操作/DOM操作.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaScript基础.iml" filepath="$PROJECT_DIR$/JavaScript基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String对象/String对象.iml" filepath="$PROJECT_DIR$/String对象/String对象.iml" />
       <module fileurl="file://$PROJECT_DIR$/事件/事件.iml" filepath="$PROJECT_DIR$/事件/事件.iml" />
       <module fileurl="file://$PROJECT_DIR$/事件流/事件流.iml" filepath="$PROJECT_DIR$/事件流/事件流.iml" />
       <module fileurl="file://$PROJECT_DIR$/函数/函数.iml" filepath="$PROJECT_DIR$/函数/函数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/对象/对象.iml" filepath="$PROJECT_DIR$/对象/对象.iml" />
+      <module fileurl="file://$PROJECT_DIR$/对象的继承/对象的继承.iml" filepath="$PROJECT_DIR$/对象的继承/对象的继承.iml" />
       <module fileurl="file://$PROJECT_DIR$/异常/异常.iml" filepath="$PROJECT_DIR$/异常/异常.iml" />
       <module fileurl="file://$PROJECT_DIR$/循环语句/循环语句.iml" filepath="$PROJECT_DIR$/循环语句/循环语句.iml" />
       <module fileurl="file://$PROJECT_DIR$/条件语句/条件语句.iml" filepath="$PROJECT_DIR$/条件语句/条件语句.iml" />
