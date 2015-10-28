@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: palegoldenrod;
+    margin: 5px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 4px;
+    border-color: #29b22d;
+    float: left;
+}

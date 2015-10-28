@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JQuery.iml" filepath="$PROJECT_DIR$/JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery中使用CSS/JQuery中使用CSS.iml" filepath="$PROJECT_DIR$/JQuery中使用CSS/JQuery中使用CSS.iml" />
       <module fileurl="file://$PROJECT_DIR$/JQuery事件/JQuery事件.iml" filepath="$PROJECT_DIR$/JQuery事件/JQuery事件.iml" />
       <module fileurl="file://$PROJECT_DIR$/JQuery初步/JQuery初步.iml" filepath="$PROJECT_DIR$/JQuery初步/JQuery初步.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery效果/JQuery效果.iml" filepath="$PROJECT_DIR$/JQuery效果/JQuery效果.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery淡入淡出/JQuery淡入淡出.iml" filepath="$PROJECT_DIR$/JQuery淡入淡出/JQuery淡入淡出.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery滑动/JQuery滑动.iml" filepath="$PROJECT_DIR$/JQuery滑动/JQuery滑动.iml" />
       <module fileurl="file://$PROJECT_DIR$/JQuery选择器/JQuery选择器.iml" filepath="$PROJECT_DIR$/JQuery选择器/JQuery选择器.iml" />
     </modules>
   </component>

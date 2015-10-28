@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 4px;
+    border-color: #29b22d;
+    float: none;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-family: monospace;
+}

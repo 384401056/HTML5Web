@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../mystyle.css">
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/app.js"></script>
+</head>
+<body>
+
+<p align="center" style="color: cornflowerblue;font-size: 30px">JQuery 隐藏与显示</p>
+<p id="p1" style="font-size: 30px;color: chocolate">JQuery</p>
+<button id="btn_hide" style="width: 100px;height: 40px">隐藏</button>
+<button id="btn_show" style="width: 100px;height: 40px">显示</button>
+<button id="btn_swich" style="width: 100px;height: 40px">隐藏/显示</button>
+<hr/>
+
+<p align="center" style="color: cornflowerblue;font-size: 30px">JQuery 隐藏与显示</p>
+<script>
+    for(var i=0;i<5;i++){
+        $("<div>").appendTo(document.body);
+    }
+
+    $("div").click(function(){
+        //消失后还可使用function()进行其它操作。
+        $(this).hide(1000,function(){
+            $(this).show(1000);//消失后再次显示。
+//          $(this).remove();//不仅消失并且移除。
+        });
+    });
+
+</script>
+</body>
+</html>
