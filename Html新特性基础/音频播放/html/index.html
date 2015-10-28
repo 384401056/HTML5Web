@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>音频播放</title>
+
+    <script>
+        function playAudio(){
+            var a = document.getElementById("audio");
+            if(a.paused){
+                a.play();
+            }else{
+                a.pause();
+            }
+        }
+    </script>
+
+</head>
+<body>
+<h1 style="color: cornflowerblue" align="center">音频播放</h1>
+<button onclick="playAudio()">播放/暂停</button>
+<audio id="audio" src="../raw/01.mp3">您的浏览器不支持</audio>
+<br/><br/><br/>
+<audio src="../raw/01.mp3" controls="controls">您的浏览器不支持</audio>
+<hr/>
+</body>
+</html>
