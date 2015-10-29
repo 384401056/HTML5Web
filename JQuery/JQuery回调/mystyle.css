@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 400px;
+    margin: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #29b22d;
+    text-align: center;
+    background-color: burlywood;
+    display: none;
+    float: none;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: monospace;
+    color: black;
+}
+
