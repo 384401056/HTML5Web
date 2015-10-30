@@ -14,7 +14,16 @@
             font-family: monospace;
             color: black;
         }
-
+        div{
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border: solid;
+            border-radius: 8px;
+            border-width: 4px;
+            border-color: #29b22d;
+            float: none;
+        }
     </style>
 </head>
 <body>
@@ -31,12 +40,12 @@
 
 <p align="center" style="color: cornflowerblue;font-size: 30px">JQuery DOM 添加删除元素</p>
 
-<div>
-
-
+<div id="divAll">
+    <input id="in1" style="margin: 10px" value="这是一个输入框."/>
+    <p style="margin-left: 10px">这是一段文字</p>
+    <button style="width: 200px;height: 30px">这是一个按钮</button>
 </div>
-
-<button id="btndel">删除元素</button>
+<button id="btndel">清空DIV内的元素</button>
 <hr/>
 
 

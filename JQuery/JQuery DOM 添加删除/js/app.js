@@ -37,6 +37,8 @@ $(document).ready(function(){
     });
 
     $("#btndel").click(function(){
-        $("p").remove();
+        //$("#divAll").remove();
+        $("#divAll").empty();
+
     });
 });
