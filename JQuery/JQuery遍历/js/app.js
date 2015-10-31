@@ -44,11 +44,16 @@ $(document).ready(function(){
 
     /**
      * 过滤
-     * first()
-     * last()
+     * first()寻找同种元素中的第一个。
+     * last()寻找同种元素中的最后一个。
+     * filter()寻找同种元素中符合条件的。
+     * not()寻找同种元素中符合条件的除外
      */
 
-    $("div a").first().css("background","#FFFF00");
+    //$("#pDiv p").first().css("background","#FF0000");
+    //$("#pDiv p").last().css("background","#FF0000");
+    //$("#pDiv p").filter(".pid").css("background","#FF0000");
+    $("#pDiv p").not(".pid").css("background","#FF0000");
 
 });
 
