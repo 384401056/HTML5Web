@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/JQuery淡入淡出/JQuery淡入淡出.iml" filepath="$PROJECT_DIR$/JQuery淡入淡出/JQuery淡入淡出.iml" />
       <module fileurl="file://$PROJECT_DIR$/JQuery滑动/JQuery滑动.iml" filepath="$PROJECT_DIR$/JQuery滑动/JQuery滑动.iml" />
       <module fileurl="file://$PROJECT_DIR$/JQuery选择器/JQuery选择器.iml" filepath="$PROJECT_DIR$/JQuery选择器/JQuery选择器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery遍历/JQuery遍历.iml" filepath="$PROJECT_DIR$/JQuery遍历/JQuery遍历.iml" />
     </modules>
   </component>
 </project>

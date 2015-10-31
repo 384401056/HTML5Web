@@ -1,1 +1,33 @@
+.style1{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #29b22d;
+    color: #29b22d;
+    background-color: #ffffff;
+    padding-top: 5px;
+    text-align: center;
+    float: none;
+    cursor: pointer;
+}
+
+.style2{
+    color:#FF000F;
+    border-color:#FF000F;
+    border-radius:8px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border: solid;
+    border-width: 2px;
+    background-color: #ffffff;
+    padding-top: 5px;
+    text-align: center;
+    float: none;
+    cursor: pointer;
+}
+
 
