@@ -7,14 +7,84 @@
     <script src="../js/jquery-ui.min.js"></script>
     <script src="../js/app.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css">
+
+    <!--选中的selector样式-->
+    <style>
+        .ui-selected{
+            background-color: #d9bb73;
+        }
+
+        .phone{
+            width: 100px;
+            height: 40px;
+            line-height:40px;
+            background-color: #fee4bd;
+            border: solid darkorange 4px;
+            border-radius: 7px;
+            font-family: monospace;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 5px;
+            list-style-type:none;
+        }
+    </style>
+
 </head>
-<body>
+<body style="padding-bottom: 400px">
 <p align="center" style="color: cornflowerblue;font-size: 30px">JQuery 交互---拖动</p>
 
-    <div id="div01" style="width: 100px;height: 100px;border: solid indigo 5px"></div>
-    <div id="div02" style="width: 100px;height: 100px;border: solid darkgreen 5px"></div>
-    <div id="div03" style="width: 100px;height: 100px;border: solid gold 5px"></div>
+    <div id="div01" style="width: 100px;height: 100px;border: solid indigo 5px" align="center">拖动我</div>
+    <div id="div02" style="width: 100px;height: 100px;border: solid darkgreen 5px" align="center">拖动我</div>
+    <div id="div03" style="width: 100px;height: 100px;border: solid gold 5px" align="center">拖动我</div>
+
+<hr/>
+
+<p align="center" style="color: cornflowerblue;font-size: 30px">JQuery 交互---拖动与放置</p>
+
+    <div id="div04" style="width: 300px;height: 300px;border: solid darkorange 5px"></div>
+    <div id="div05" style="width: 150px;height: 150px;border: solid darkcyan 5px" align="center">拖动我到大框里</div>
+
+<hr/>
+
+<p align="center" style="color: cornflowerblue;font-size: 30px">JQuery 交互---Resizeable(缩放)</p>
+
+    <div id="div06" style="width: 100px;height: 100px;background-color: #f8893f"></div>
+
+<hr/>
+
+<p align="center" style="color: cornflowerblue;font-size: 30px">JQuery 交互---Selectable(可选择)</p>
+
+<p style="color:#060200;font-size: 30px">谁是世界上最好看的人？</p>
+<ul id="selector">
+    <li style="font-size: 25px">I</li>
+    <li style="font-size: 25px">me</li>
+    <li id="right" style="font-size: 25px">我</li>
+</ul>
+<br/>
+    <button id="btn01">提交</button>
+</ul>
+<hr/>
+
+<p align="center" style="color: cornflowerblue;font-size: 30px">JQuery 交互---Sortable(可重新排序)</p>
+
+<ul id="sortable">
+    <li class="phone">华为</li>
+    <li class="phone">苹果</li>
+    <li class="phone">小米</li>
+    <li class="phone">魅族</li>
+    <li class="phone">oppo</li>
+</ul>
+
 
 <hr/>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
