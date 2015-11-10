@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HTML5Web.iml" filepath="$PROJECT_DIR$/.idea/HTML5Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery 交互/JQuery.iml" filepath="$PROJECT_DIR$/JQuery 交互/JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery 交互/JQuery 交互.iml" filepath="$PROJECT_DIR$/JQuery 交互/JQuery 交互.iml" />
     </modules>
   </component>
 </project>
