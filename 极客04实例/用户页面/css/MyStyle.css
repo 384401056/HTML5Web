@@ -1,0 +1,62 @@
+body,p,ul,li,button,input{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    background: #dedede;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    width: 1000px;
+    margin: 0px auto;/*上下为0，左右自动*/
+}
+
+.content .left{
+    float: left;
+    width: 225px;
+    min-height: 760px;
+    background: #fff;
+}
+
+.left .user_info{
+    margin: 20px;
+    text-align: center;
+}
+
+.user_info .user_icon{
+    margin: 10px auto;
+    width: 180px;
+    height: 180px;
+
+}
+
+.user_icon img{
+    border-radius: 90px;
+}
+
+.user_info .user_name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    line-height: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
