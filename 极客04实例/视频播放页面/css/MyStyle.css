@@ -1,0 +1,134 @@
+body,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    /*全局字体设置*/
+    font-family: arial,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,sans-serif;
+    background: #dedede;
+}
+
+a{
+    text-decoration: none;
+}
+
+.w-1000{
+    width: 1000px;
+    margin: 0px auto;
+    min-height: 768px;
+    background: #fff;
+}
+
+.nav{
+    line-height: 64px;
+    padding-left: 20px;
+}
+
+.nav a{
+    color: #747474;
+    margin-right: 20px;
+}
+
+.banner{
+    height: 100px;
+    background: url("../images/learnCourseVideoTop.jpg");
+}
+
+.banner .title{
+    font-size: 20px;
+    color: #ffffff;
+    padding:6px 26px 0px 26px ;
+}
+
+.banner .des{
+    font-size: 14px;
+    color: #bebebe;
+    padding:6px 26px 0px 26px ;
+    line-height: 1.4em;
+}
+
+.video{
+    width: 1000px;
+    height: 560px;
+}
+
+.video-info{
+    height: 84px;
+    padding-top: 20px;
+    background: #101213;
+}
+
+.video-info .left{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+.video-info .left p{
+    float: left;
+    padding-left: 38px;
+    font-size: 16px;
+}
+
+.video-info a{
+    color: #1abc9c;
+}
+
+.video-info .right{
+    width: 350px;
+    height: 84px;
+    float: right;
+    position: relative;
+    margin-right: 40px;
+}
+
+.video-info .right .right-num{
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.video-info .right .right-num a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #1d1d1d;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 6px;
+    line-height: 40px;
+    float: left;
+
+    position: relative;
+}
+
+
+.video-info .right .right-num a:hover{
+    width: 36px;
+    height: 36px;
+    border: 2px solid #1abc9c;
+    line-height: 36px; /*为了宽高改变后，但文字位置不变，所以要加行高*/
+}
+/*.video-info .right .right-num a:hover{*/
+    /*background: #eee;*/
+    /*color: black;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+

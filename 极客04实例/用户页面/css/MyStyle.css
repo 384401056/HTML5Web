@@ -5,6 +5,8 @@ body,p,ul,li,button,input{
 }
 
 body{
+    /*全局字体设置*/
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
     background: #dedede;
 }
 
@@ -14,7 +16,7 @@ a{
 
 .content{
     width: 1000px;
-    margin: 0px auto;/*上下为0，左右自动*/
+    margin: 100px auto;/*上下为0，左右自动*/
 }
 
 .content .left{
@@ -41,22 +43,120 @@ a{
 }
 
 .user_info .user_name{
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+    padding-top: 15px;
+    padding-bottom: 15px;
     line-height: 1.2em;
+    font-size: 18px;
+}
+
+.user_info .vip_time{
+    padding-bottom: 10px;
+    font-size: 14px;
 }
 
 
+.user_info .vip_btn{
+    color: #ff7600;
+    padding: 5px 20px;
+    border: 1px solid #ff7600;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.vip_btn:hover{
+    color: #ffffff;
+    background: #ff7600;
+}
 
 
+/*============左下菜单==============*/
+
+.menu_ul i{
+    font-style: normal;/*非斜体*/
+}
+
+.user_menu .menu_ul{
+    margin: 30px;
+    display: inline-block;/*在一行显示*/
+}
 
 
+.user_menu .menu_ul li{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 16px;
+    text-align: center;
 
+}
 
+.user_menu .menu_ul li:hover,.user_menu .menu_ul li:active{
+    background: #eee;
+    border-radius: 5px;
+}
 
+.user_menu .menu_ul a{
+    color: #101213;
+}
 
+/*============右边内容================*/
 
+.content .right{
+    float: right;
+    width: 750px;
+    min-height: 760px;
+    background: #fff;
+}
 
+.right .right-nav{
+    height: 44px;
+    border-bottom: 2px solid #f1f1f1;
+}
 
+.right-nav .right-nav-g{
+    padding-left: 15px;
+    line-height: 44px;/*此处与父容器高度一至，就可居中显示*/
+}
 
+.right-nav .right-nav-g span{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #101213;
+    border-left: 12px solid green;
+}
+
+.right-content{
+    padding: 20px;
+    height: auto;
+    display: inline-block;
+}
+
+.right-input{
+    float: left;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.right-btn{
+    float: left;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.right-btn .gvip-btn{
+    color: #00a711;
+    padding: 5px 20px;
+    border: 1px solid #00a711;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.right-btn .gvip-btn:hover{
+    color: #ffffff;
+    background: #00a711;
+}
