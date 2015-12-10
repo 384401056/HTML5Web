@@ -7,6 +7,15 @@
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/jquery.mobile-1.4.5.min.js"></script>
     <title></title>
+    <script>
+        $(function(){
+           $("#btn_ok").on("click",function(){
+
+
+
+           }) ;
+        });
+    </script>
 </head>
 <body>
     <div data-role="page" id="page01">
@@ -42,9 +51,12 @@
         <div data-role="header" data-position="fixed" >
             <h2>对话框</h2>
         </div>
-
         <div role="main">
+            <p>
+                这是是一个对话框。。。。。。。
+            </p>
             <a class="ui-btn ui-shadow ui-corner-all" href="#page01" data-transition="slidefade" data-rel="back">返回</a>
+            <a id="btn_ok" class="ui-btn ui-shadow ui-corner-all" href="#" data-transition="slidefade">确定</a>
         </div>
 
         <div data-role="footer" data-position="fixed">
